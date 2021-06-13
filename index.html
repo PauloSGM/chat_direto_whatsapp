@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="./img/whatsapp--v1.png">
+<meta name="HandheldFriendly" content="true">
+<title>Chat direto para Whatsapp</title>
+<meta name="description" content="Send WhatsApp message without adding contact using WhatsApp Direct. Now send WhatsApp messages to unsaved number from your iPhone, Android, Windows Phone devices.">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<container>
+<header>
+<img class="logo" src="./img/whatsapp--v1.png">
+<span>Quer falar com alguém no Whatsapp sem ter que salvar o contato na agenda? O FalaZap.me te ajuda</span>
+</header>
+<content>
+<form id="theForm">
+<div id="phone_group">
+<label id="country_code_label">Brasil</label>
+<input type="tel" name="phone" id="phone" placeholder="Digite aqui o número de quem você deseja conversar">
+</div>
+<textarea id="message" placeholder="Digite aqui sua mensagem"></textarea>
+<a target="_blank" class="btn btn-primary" id="send" onclick="createWhatsAppLink();">Enviar</a>
+</form>
+</content>
+
+</container>
+<script src="./script/script.js"></script>
+</body></html>
